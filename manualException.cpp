@@ -13,6 +13,7 @@ int main()
         cout << "Pengecualian akan dieksekusi" <<endl;
     }
     catch (...) {
-       
+       // jika selain interger maka blok lain akan dieksekusi
+       cout << " default eksekusi blok " <<endl;
     }
 }
