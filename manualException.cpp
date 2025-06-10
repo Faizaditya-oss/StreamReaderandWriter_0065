@@ -13,6 +13,6 @@ int main()
         cout << "Pengecualian akan dieksekusi" <<endl;
     }
     catch (...) {
-        
+       
     }
 }
